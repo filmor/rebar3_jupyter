@@ -1,0 +1,16 @@
+{application, rebar3_jupyter,
+ [{description, "Jupyter rebar3 plugin based on ierl"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    ierl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Benedikt Reinartz"]},
+  {licenses, ["GPLv3"]},
+  {links, [{"Github","https://github.com/filmor/rebar3_jupyter"}]}
+ ]}.
